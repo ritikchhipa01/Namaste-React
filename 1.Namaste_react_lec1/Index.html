@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React 1</title>
+    <link rel="stylesheet" href="Styles.css">
+    <!-- <script src="App.js" defer></script> it will also work only when we use defer -->
+</head>
+
+<body>
+
+     
+    <div id="root">
+        <!-- Q.what will happen if there is already some elements in this div and we try to redered element from react -->
+        <h1>Not rendered</h1>
+        <!-- Ans. react will overlap everything inside in this div -->
+    </div>
+    
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="App.js"></script>
+</body>
+
+<!-- using javascript we rendered h1 inside body -->
+<!-- <script>
+    let heading = document.createElement("h1");
+    heading.innerText = "Namaste React";
+    const root = document.getElementById("root");
+    root.appendChild(heading);
+</script> -->
+
+
+
+</html>

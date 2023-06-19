@@ -1,0 +1,89 @@
+Q1. what is emmet
+Ans. Emmet is plugin for popular text editor which Generaly improves HTML and CSS.
+     EX. #page>div.logo+ul#navigation>li*5{item $}
+     Result:
+      <div id="page">
+        <div class="logo"></div>
+        <ul id="navigation">
+            <li>item  1</li>
+            <li>item  2</li>
+            <li>item  3</li>
+            <li>item  4</li>
+            <li>item  5</li>
+        </ul>
+     </div>
+
+<***********************************************>
+
+Q.2 Difference Between library and framework 
+Ans. Both is precoded support program to develop complex software applicatins. However,
+     libraries target specific functionality,
+     while framework tries to provide everything required to develop a complete applicatins.
+
+<***********************************************>
+
+Q.3 What is CDN And why do we use it?
+Ans. CDN is stands for:- Content delivery / distributions Network.
+     -> It is a Network of interconnected Servers that speeds up webpage loading for data-heavy-applicatins.
+     -> Ex. When User located far from server, it takes long time to load large file such as video, image and website-file, so we store website content on CDN Geographically closer to client.
+
+     ->CDN improves efficiency client and Website servers by using intermidiate server.
+     ->Decrease Traffic, reduce bandwidth consumption, improve user-experience of your applicatins.
+     ->benefits of CDN: 
+       - Reduce Page load time
+       - Reduce bandwidth Costs
+       - Increase Content avaibility
+       - Improve website Security
+
+<***********************************************>
+
+Q.4 What is crossorigin in script tag?
+Ans. <script crossorigin src="..."></script> this is an crossorigin script tag.
+     If you serve React from CDN, it's recommanded to keep the crossorigin Attribute set.
+
+
+<***********************************************>
+
+Q.5  What is difference between react.development.js and react.production.js files via CDN?
+      The react.development.js used for development,and not suitable for production.
+      where react.production.js is used for production, which is minified and optimized form of React CDN.
+
+Q.6  What is diference between React and ReactDOM?
+Ans The react package holds the react source for components, state, props and all the code that is react.
+
+    The react-dom package as the name implies is the glue between React and the DOM. Often, you will only use it for one single thing: mounting your application to the index.html file with ReactDOM.render().
+
+    Why separate them?
+
+   The reason React and ReactDOM were split into two libraries was due to the arrival of
+   React Native (A react platform for mobile development).
+
+   React components are such a great way to organize UI that it has now spread to mobile to <react is used in web and in mobile>
+   --react-dom is used only in web apps.--
+
+<***********************************************>
+
+Q.7 What is async and defer?
+Ans. Async and defer are boolean attribute which are use along with script tag to load external script in our web-page. 
+
+     Async script: when HTML parsing going on, any of our script fetch asyncronously with our HTML parsing, as soon as script fetched and available in the browser then HTML parsing stops and script starting executes, when the script executed the HTML parsing continues like regular.
+
+       HTML parsing           parse stop     parsing continues
+     ●---------------------●                ●------------------●
+              ●============●●==============●
+              js fetching     js excution
+
+     defer script: When HTML parsing going on, any of our script fetch asyncronously with our HTML parsing, After once HTML parsing     completed the script excution start.
+
+      HTML parsing              
+     ●---------------------------------------●
+              ●============●                  ●==============●
+               js fetching                       js excution
+
+
+
+
+<***********************************************>
+
+Q.8 why react known as react?
+    Because React called React because it reacts. It was developed by Facebook (a site that CONSTANTLY updates their data) to improve the user interface development and more effectively change (REACT to) what the user sees when they're doing things like mouse clicking, submitting and typing.”
