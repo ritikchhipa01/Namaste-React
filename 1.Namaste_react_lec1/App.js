@@ -1,17 +1,16 @@
-const heading = React.createElement("h1", {
-    style: {
-        backgroundcolor: "red",
-    }
-}, "Namaste React")
-const heading2 = React.createElement("h2", {
-    style: {
-        backgroundcolor: "red",
-    }
-}, "Using")
+//the below code produces <h1 id="title">Namaste React</h1>
+const heading = React.createElement("h1",
+    {
+        id: "title"
+    },
+    "Namaste React")
+const heading2 = React.createElement("h2",
+    {
+        id: "title1"
+    },
+    "Using")
 const heading3 = React.createElement("h2", {
-    style: {
-        backgroundcolor: "red",
-    }
+    id: "title3"
 }, "React")
 
 const main = React.createElement("div", {

@@ -1,0 +1,14 @@
+{
+  "name": "1.namaste_react_lec1",
+  "version": "1.0.0",
+  "description": "this is namaste app",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.2"
+  }
+}
