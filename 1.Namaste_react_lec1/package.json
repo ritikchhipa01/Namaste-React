@@ -4,11 +4,18 @@
   "description": "this is namaste app",
   "main": "App.js",
   "scripts": {
+    "start": "parcel lect3.html",
+    "build": "parcel build lect3.html",
     "test": "jest"
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "devDependencies": {
-    "parcel": "^2.9.2"
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
   }
 }
